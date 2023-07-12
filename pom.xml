@@ -16,16 +16,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
-<!--  Gaston  -->
-        <distributionManagement>
-        <repository>
-        <id>github</id>
-        <name>GitHub Packages</name>
-        <url>https://maven.pkg.github.com/Nachituy/orders</url>
-        </repository>
-        </distributionManagement>
 
-<!-- FIN -->
 	
 	
 	
