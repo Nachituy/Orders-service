@@ -6,7 +6,7 @@ on:
 
 jobs:
    build:
-    name: Build Image
+    name: Build & Docker
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
