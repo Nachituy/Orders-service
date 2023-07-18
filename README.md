@@ -3,6 +3,8 @@
 Se realiza el build de la aplicacion
 luego se construye el container image y realiza push al ECR
 
+Se actualiza la imagen del POD en EKS via kubectl
+
 Se necesita la creacion de secrets 
 
 cat ~/.kube/config | base64   copiamos el stdout y lo  guardamos como KUBE_CONFIG_DATA  
