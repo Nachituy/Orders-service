@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "d608ecd8-14ea-4a08-b17c-a2941104abd7",
+		"name": "Compras",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27150075"
+	},
+	"item": [
+		{
+			"name": "Realizar una compra",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    \"123\", \"321\", \"111\"\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "orders:8080/orders",
+					"host": [
+						"orders"
+					],
+					"port": "8080",
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
