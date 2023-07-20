@@ -69,7 +69,7 @@ jobs:
                        
         - name: working with Kubernetes 
           run: |
-             
+             aws eks update-kubeconfig --region us-east-1 --name ${{ vars.CLUSTER_NAME}}
              kubectl apply -f kubernetes/pod.yml  -f kubernetes/services.yml -f kubernetes/networking.yml   
           env:
              
