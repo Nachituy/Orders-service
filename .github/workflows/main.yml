@@ -81,7 +81,7 @@ jobs:
              #echo "deb [signed-by=/etc/apt/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
              #sudo apt-get update
              #sudo apt-get install -y kubectl
-             #kubectl apply -f kubernetes/pod.yml  -f kubernetes/services.yml -f kubernetes/networking.yml  
+             kubectl apply -f kubernetes/pod.yml  -f kubernetes/services.yml -f kubernetes/networking.yml  
           #env:
              #KUBE_CONFIG_DATA: $KUBE_CONFIG
              #ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
