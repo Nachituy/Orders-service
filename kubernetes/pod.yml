@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: 612686574181.dkr.ecr.us-east-1.amazonaws.com/obligatorio:orders_image
+          image: 201748105803.dkr.ecr.us-east-1.amazonaws.com/obligatorio:orders_image
           
           ports:
             - containerPort: 8080
